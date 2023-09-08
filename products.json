@@ -1,0 +1,99 @@
+[
+ 
+    {
+        "id":1,
+        "category":"Hamburger",
+        "description":"Teste",
+        "products":[
+            {
+
+            "id":"2",
+            "name":"Hamburger",
+            "description":"Lorem ipusm tetetetetetetetetet",
+            "price":"12.00",
+            "complements":[
+                {
+                "name":"Bacon Extra",
+                "price":6.00
+                },
+                {
+                 "name":"Salada",
+                 "price":3.00
+                },
+                {
+                  "name":"Molho",
+                  "price":2.00
+                 }
+             ]
+            },
+            {
+
+                "id":"2",
+                "name":"Hamburgão",
+                "description":"Lorem ipusm tetetetetetetetetet",
+                "price":"12.00",
+                "complements":[
+                    {
+                    "name":"2 Carnes",
+                    "price":6.00
+                    },
+                    {
+                     "name":"3 Queijos",
+                     "price":3.00
+                    },
+                    {
+                      "name":"2 molhos",
+                      "price":2.00
+                     }
+                 ]
+                },
+                {
+
+                    "id":"2",
+                    "name":"Hamburger Chiken",
+                    "description":"Lorem ipusm tetetetetetetetetet",
+                    "price":"15.00",
+                    "complements":[
+                        {
+                        "name":"Batata",
+                        "price":6.00
+                        },
+                        {
+                         "name":" Tiras de frango",
+                         "price":10.00
+                        },
+                        {
+                          "name":"Molho",
+                          "price":2.00
+                         }
+                     ]
+        
+                    },
+                    {
+
+                        "id":"2",
+                        "name":"Hamburger Junior",
+                        "description":"Lorem ipusm tetetetetetetetetet",
+                        "price":"12.00",
+                        "complements":[
+                            {
+                            "name":"Bacon em Farofa",
+                            "price":6.00
+                            },
+                            {
+                             "name":"Tomate",
+                             "price":3.00
+                            },
+                            {
+                              "name":"Molho Especial",
+                              "price":2.00
+                             }
+                         ]
+            
+                        }
+        ]
+    }
+
+
+
+]

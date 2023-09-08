@@ -1,0 +1,121 @@
+
+
+.container-modal{
+   width: 100%;
+   background-color: rgba(41, 41, 41, 0.63);
+   height: 100vh;
+   position: fixed;
+   z-index: 0;
+   top: 0;
+
+   .modal-content{
+    overflow-y: auto;
+    height: 80vh;
+   }
+  
+
+    .modal-body{
+        background-color: #FFF;
+        width: 50%;
+        margin: 2% auto;
+
+        .modal-img-product {
+            display: flex;
+            justify-content: center;
+            margin-top: 3%;
+        }
+        .modal-img-product img{
+            width: 80%;
+            margin: 0 auto;
+            border: solid 1px transparent;
+            border-radius: 10px;
+        }
+
+        .modal-title{
+            text-align: center;
+            padding: 3%;
+            background-color: #000;
+            color: #FFF;
+        }
+        .modal-option{
+            display: flex;
+            justify-content: space-between;
+            padding: 2%;
+            font-size: 1.3rem;
+        }
+        .modal-note{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            
+        }
+        .modal-note textarea{
+            width: 80%;
+            height: 100px;
+            margin: 5% auto;
+        }
+    
+
+    }
+
+    .modal-header{
+        border-bottom: solid 1px #cccccc;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2%;
+    }
+
+    .modal-header svg{
+        cursor: pointer;
+    }
+
+    .modal-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: solid 1px #c4c3c3;
+        padding: 5%;
+
+        .modal-price-total{
+            background-color: #0f6b07;
+            color: #FFF;
+            width: 40%;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: solid 1px transparent;
+            border-radius: 10px 10px 10px 10px;
+            font-size: 1.3rem;
+            cursor: pointer;
+        }
+        .modal-qtd {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            border: solid 1px#c2c2c2;
+            padding: 10px;
+            width: 40%;
+
+            input{
+                font-size: 1.6rem;
+                text-align: center;
+                width: 20%;
+            }
+       
+        }
+        .modal-qtd input{
+            height:40px;
+            border: transparent;
+
+        }
+        .modal-qtd span{
+           font-size: 3rem;
+           cursor: pointer;
+        }
+    }
+     
+
+}
